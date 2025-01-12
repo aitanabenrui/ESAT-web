@@ -22,7 +22,7 @@ body {
     flex-direction: column; /*al poner flex direction; column y justify content: space-between se separan el topbar del título con el botón*/
     justify-content: space-between;
     align-items: left;
-    height: 100vh;
+    height: 100vh; /*el container ocupará el 100% de la pantalla*/
     background: url(images/test-landing-id3\ 1.png) no-repeat center center/cover;
     position: relative;
 }
@@ -110,15 +110,41 @@ body {
     right: 1rem;
   }
 
-  .section1{
+  .design{
     width: 100%;
     background-color: #fff;
-    color: black;
+    color: #333;
+    padding-block: 70px; 
+    padding-inline: 20px;
   }
 
-.lineheight h3{
+.design__title p{
     line-height: 1.2rem;
     font-family: 'Inter', sans-serif;
-    font-weight: 700;
+    font-weight: 200;
 }
+
+.design__title h3{
+  line-height: 3rem;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  font-weight: 200;
+}
+
+.design__title__orange {
+  color: #EF7D00;
+}
+
+.design__title p{
+  font-size:1.2rem;
+  font-family:'Inter', sans-serif;
+  font-weight: 400;
+  line-height: 1.4rem;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+
+
+
 
