@@ -10,7 +10,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Inter', sans-serif;
     line-height: 1.6;
     background-color: #000;
     color: #fff;
@@ -118,17 +118,12 @@ body {
     padding-inline: 20px;
   }
 
-.design__title p{
-    line-height: 1.2rem;
-    font-family: 'Inter', sans-serif;
-    font-weight: 200;
-}
 
 .design__title h3{
   line-height: 3rem;
   font-family:Arial, Helvetica, sans-serif;
   font-size: 3rem;
-  font-weight: 200;
+  font-weight: 100;
 }
 
 .design__title__orange {
@@ -136,15 +131,96 @@ body {
 }
 
 .design__title p{
-  font-size:1.2rem;
+  font-size:1.5rem;
   font-family:'Inter', sans-serif;
   font-weight: 400;
-  line-height: 1.4rem;
+  line-height: 1.6rem;
   padding-top: 10px;
   padding-bottom: 30px;
 }
 
+.design__title img{
+  display: inline-block;
+  object-fit: cover;
+  width: 100%;
+}
 
+.carousel_btns{
+display: flex;
+justify-content: flex-end;
+align-items: center;
+gap: 2rem;
+align-self: stretch;
+}
 
+.carousel_btn{
+  display:inline-block;
+  margin-top: 20px;
+  background-color: #444;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+  text-align: center;
+  padding-top: 0.3rem;
+  height: 2.8rem;
+  width: 2.8rem;
+  border-radius: 50%;
+  
+}
+
+.projects{
+  background-color: rgb(238, 240, 245);
+  align-self: stretch;
+  padding-bottom: 10px;
+  
+}
+
+.center{
+  display: flex;
+  flex-direction: column; /* Si hay más elementos y quieres apilarlos */
+  justify-content: center; /* Centrado vertical */
+  align-items: center; /* Centrado horizontal */
+  text-align: center; /* Centra el texto dentro del contenedor */
+  height: 100%; /* Asegúrate de que tenga suficiente altura para centrar */
+  padding: 70px 20px; /* Mantén el padding existente */
+}
+
+.projects p{
+  font-size: 1.1rem;
+  font-weight: 300;
+  line-height: 1.2rem;
+}
+
+.projects img{
+  max-width: 15rem;
+  margin-top: 1rem;
+}
+
+.training_info img{
+  display: inline-block;
+  margin-top: 2rem;
+  margin-right: 1rem;
+}
+
+.training_info h6{
+  display:inline-block;
+  font-size: 1.2rem;
+  color: var(--color_text, #3C3C3C);
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.44px;
+  margin-bottom: 5px;
+  max-width: 70%;
+}
+
+.training_info p{
+  margin-left: 3.5rem;
+}
+
+.training_info_title{
+  margin-top: 1.8rem;
+}
 
 
