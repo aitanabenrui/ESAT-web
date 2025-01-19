@@ -197,6 +197,16 @@ align-self: stretch;
   margin-top: 1rem;
 }
 
+.training_info_title{
+  margin-top: 3rem;
+  display: flex;
+  align-items: start;/* solución a iconos alineados arriba en el texto, hace que el div que contiene el icono y el título se alineen de forma correcta  */
+}
+
+.training_info{
+  margin-top: 3.5rem;
+  gap: 2rem;
+}
 
 .training_info img{
   display: inline-block;
@@ -219,11 +229,5 @@ align-self: stretch;
   margin-left: 3.5rem;
 }
 
-.training_info_title{
-  margin-top: 1.8rem;
-  display: flex;
-  align-items: start;/* solución a iconos alineados arriba en el texto  */
-  
-}
 
 
