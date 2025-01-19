@@ -176,7 +176,7 @@ align-self: stretch;
   
 }
 
-.center{
+.center{ /* PARA CENTRAR ELEMENTOS */
   display: flex;
   flex-direction: column; /* Si hay más elementos y quieres apilarlos */
   justify-content: center; /* Centrado vertical */
@@ -229,5 +229,49 @@ align-self: stretch;
   margin-left: 3.5rem;
 }
 
+.vscode{
+  max-width: 100%;
+}
 
+.place_reservation{
+  font-family: 'Inter', sans-serif;
+  height: 100vh; /*el container ocupará el 100% de la pantalla*/
+  background: url(images/test-landing-id3\ 1.png) no-repeat center center/cover;
+   /* Activar Flexbox para centrar todo el contenido */
+   text-align: center; /* Centra horizontalmente el texto dentro del contenedor */
+  position: relative;/* para alinear el texto y el botón al centro de la pantalla, en el hijo pones la absoluta*/
+}
+
+.place_reservation_div{
+  display: flex;/* Activa el modelo Flexbox */
+  flex-direction: column;/* Alinea elementos en columna */
+  justify-content: center;/* Centra los elementos verticalmente */
+  align-items: center; /* Centra los elementos horizontalmente */
+  position:absolute; /* para alinear el texto y el botón al centro de la pantalla */
+  top: 0;
+  bottom: 0;
+  left:0;
+  right: 0;
+}
+
+.place_reservation h3{
+  text-align: center;
+  font-size: 2.3rem;
+  line-height: 2.5rem;
+  font-weight: 300;
+  padding-inline: 1.5rem;
+}
+
+.place_reservation button{
+  margin-top: 1rem; /* Espaciado entre el texto y el botón */
+  padding: 0.7rem; /* Tamaño del botón */
+  font-size: 1.2rem; /* Tamaño del texto en el botón */
+  background-color: #EF7D00;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  margin-inline: 10rem;
+  min-width: 220px;
+  text-align: center;
+}
 
