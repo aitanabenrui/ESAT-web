@@ -131,10 +131,10 @@ body {
 }
 
 .design__title p{
-  font-size:1.5rem;
+  font-size:1.2rem;
   font-family:'Inter', sans-serif;
   font-weight: 400;
-  line-height: 1.6rem;
+  line-height: 1.4rem;
   padding-top: 10px;
   padding-bottom: 30px;
 }
@@ -310,4 +310,47 @@ align-self: stretch;
 .profesional_card p{
   font-weight: 300;
   line-height: 1.2rem;
+}
+
+.why_us{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap:24px;
+  flex: 1 0 0;
+  align-self: stretch;
+  margin-top: 1rem;
+}
+
+.why_us p{
+  line-height: 1.2rem;
+  font-weight: 200;
+}
+
+.why_us h3{
+  font-size: 1.5rem;
+}
+
+.why_us img{
+  margin-bottom: 1.4rem;
+}
+/* en vez de poner dos cards poner solo una y luego añadir una clase que sea white y otra que sea orang*/
+.orange_card{
+  background-color: #EF7D00;
+  border-radius: 12px;
+  color: #fff;
+  padding: 24px;
+  margin-top: 2.1rem;
+  height: 15rem;
+}
+
+.white_card{
+  border: 1px solid rgba(0,0,0,0.2); /* 1px de grosor, solid=tipo de linea*/
+  border-radius: 12px;
+  padding: 24px;
+  height: 15rem;
+}
+
+.card_align{
+  align-items: end;
 }
