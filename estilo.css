@@ -275,3 +275,39 @@ align-self: stretch;
   text-align: center;
 }
 
+.open_enrollment{
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.open_enrollment h6{
+  font-size: 1.2rem;
+  color: var(--color_text, #3C3C3C);
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.44px;
+  margin-bottom: 2px;
+}
+
+.open_enrollment_content{
+  display: inline-block;
+}
+
+.open_enrollment img{
+  margin-right: 16px;
+}
+
+.profesional_card h5{
+  font-size: 1.5rem;
+}
+
+.profesional_card h6{
+  font-size: 1.2rem;
+  margin-bottom: 0.2rem;
+}
+
+.profesional_card p{
+  font-weight: 300;
+  line-height: 1.2rem;
+}
