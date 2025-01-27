@@ -254,6 +254,10 @@ align-self: stretch;
   right: 0;
 }
 
+.place_reservation_div button:hover {
+  background-color: #f16210;
+}
+
 .place_reservation h3{
   text-align: center;
   font-size: 2.3rem;
