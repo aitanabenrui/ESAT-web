@@ -325,6 +325,7 @@ align-self: stretch;
 .why_us p{
   line-height: 1.2rem;
   font-weight: 200;
+  margin-top: auto;
 }
 
 .why_us h3{
@@ -345,10 +346,17 @@ align-self: stretch;
 }
 
 .white_card{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex: 1;/* Permite que todas las cards tengan la misma altura */
+  align-self: stretch;
   border: 1px solid rgba(0,0,0,0.2); /* 1px de grosor, solid=tipo de linea*/
   border-radius: 12px;
   padding: 24px;
-  height: 15rem;
+  box-sizing: content-box;
+  min-height: 11rem; /* min-height es lo que hará que la tarjeta tenga un tamaño mínimo */
 }
 
 .card_align{
