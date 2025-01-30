@@ -1,5 +1,5 @@
 const orangeCard = document.querySelectorAll('.orange_card');
-const whiteCard = document.querySelectorAll('.whiteCard'); 
+const whiteCard = document.querySelectorAll('.white_card'); 
 
 const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
@@ -15,4 +15,4 @@ orangeCard.forEach((card)=>{
 
 whiteCard.forEach((card)=>{
     observer.observe(card);
-})
+});
